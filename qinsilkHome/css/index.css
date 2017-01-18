@@ -1,0 +1,1113 @@
+html, body {
+    font-family: "黑体";
+    color: white;
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+
+/*顶部样式*/
+
+.top {
+    height: 78px;
+    z-index: 99999;
+}
+
+.topBtns {
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    z-index: 9999;
+}
+
+.topBtnL {
+    width: 50%;
+    min-width: 650px;
+    background: #00a9fa;
+    height: 100%;
+    text-align: center;
+    float: left;
+    position: relative;
+    z-index: 9999;
+}
+
+.topBtnR {
+    width: 50%;
+    min-width: 650px;
+    background: #00cece;
+    height: 100%;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+.topBtns h4 {
+    /*line-height: 35px;*/
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    padding: 13px 10px 0;
+    top: 5px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.topBtns #loginL {
+    position: absolute;
+    bottom: 36%;
+    right: 38px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.topBtns #loginR {
+    position: absolute;
+    bottom: 36%;
+    right: 38px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.top .topBtnL .panelL {
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    top: -275px;
+    left: 0;
+    display: block;
+    box-shadow: 5px 5px 18px black;
+    transition: top 1.5s;
+    -webkit-transition: top 1.5s;
+    -moz-transition: top 1.5s;
+    -o-transition: top 1.5s;
+}
+
+.top .topBtnL .panelL .panelImg {
+    height: 100%;
+    width: 100%;
+}
+
+.top .topBtnL .panelL #panelDownload1 {
+    position: absolute;
+    right: 170px;
+    top: 45%;
+    cursor: pointer;
+}
+
+.top .topBtnR .panelR {
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    top: -275px;
+    left: 0;
+    box-shadow: -5px 5px 18px black;
+    z-index: 99;
+    transition: top 1.5s;
+    -webkit-transition: top 1.5s;
+    -moz-transition: top 1.5s;
+    -o-transition: top 1.5s;
+}
+
+.top .topBtnR .panelR .panelImg {
+    height: 100%;
+    width: 100%;
+}
+
+.top .topBtnR .panelR #panelDownload2 {
+    position: absolute;
+    right: 130px;
+    top: 45%;
+    cursor: pointer;
+}
+
+.top .topBtnL:hover .panelL {
+    top: 78px;
+}
+
+.top .topBtnR:hover .panelR {
+    top: 78px;
+}
+
+
+/*轮播图部分*/
+
+
+/*.jumbotron {
+    width: 100%;
+    min-width: 1300px;
+    height: 460px;
+    margin: 0;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1600px) {
+  .jumbotron{
+    height: 550px;
+  }
+}*/
+
+.carousel {
+    height: auto;
+    width: auto;
+    position: relative;
+    min-width: 1300px;
+}
+
+.carousel .slogan {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 8%;
+    z-index: 999;
+}
+
+.carousel .slogan img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .imgBox {
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+}
+
+.carousel .imgBox .item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control.right {
+    height: 100%;
+}
+
+
+/*产品介绍部分*/
+
+
+/*
+.proIntro{
+  padding: 71px 12% 70px;
+  height: auto;  431px
+  width: 100%;
+  background: -webkit-linear-gradient(30deg,#00daab,#00aafa);
+  color: white;
+  text-align: center;
+}
+
+.proIntro .row .col-md-3{
+  padding: 0 30px;
+}
+
+调整各个图片高度不一致的情况
+.proIntro .row #proIntro1{
+  margin: 13px auto 40px;
+}
+
+.proIntro .row #proIntro2{
+  margin: 13px auto 32px;
+}
+
+.proIntro .row #proIntro4{
+  margin: 0 auto 30px;
+}
+
+
+.proIntro .row #proIntro3{
+  margin: 0 auto 0;
+}
+
+.proIntro .row p{
+  font-size: 15.2px;
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .proIntro .row p{
+    font-size: 15.2px;
+    margin: 18px auto 100px;
+  }
+}*/
+
+.proIntro {
+    padding: 71px 0 30px;
+    height: auto;
+    margin: 0;
+    width: 100%;
+    min-width: 1300px;
+    background: linear-gradient(30deg, #00daab, #00aafa);
+    background: -webkit-linear-gradient(30deg, #00daab, #00aafa);
+    background: -moz-linear-gradient(30deg, #00daab, #00aafa);
+    background: -o-linear-gradient(30deg, #00daab, #00aafa);
+    color: white;
+    text-align: center;
+}
+
+.proIntro .box {
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.proIntro .box .cont {
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.proIntro .box .cont img {
+    margin: 0 auto;
+}
+
+.proIntro .box #proIntro1 {
+    margin: 18px auto 40px;
+}
+
+.proIntro .box #proIntro2 {
+    margin: 13px auto 36px;
+}
+
+.proIntro .box #proIntro4 {
+    margin: 0 auto 35px;
+}
+
+.proIntro .box #proIntro3 {
+    margin: 0 auto 0;
+}
+
+.proIntro .box p {
+    font-size: 15.2px;
+    margin-top: 18px;
+}
+
+.proIntro .introTip {
+    margin: 30px auto 30px;
+    width: 188px;
+    height: 40px;
+}
+
+.proIntro .introTip img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #ffdc00;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+
+/*下载部分样式*/
+
+.proDownload {
+    width: 100%;
+    min-width: 1300px;
+    height: auto;
+    font-family: "黑体";
+    text-align: center;
+    overflow: auto;
+}
+
+.proDownload .box {
+    height: 768px;
+    width: 100%;
+    overflow: auto;
+}
+
+.proDownload .proDownloadL, .proDownloadR {
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+.proDownloadL {
+    height: 100%;
+    background: linear-gradient(80deg, #006bf6 30%, #00c0d5 80%);
+    background: -webkit-linear-gradient(80deg, #006bf6 10%, #00c0d5);
+    background: -moz-linear-gradient(45deg, #00cdfc, #006bf6);
+    background: -o-linear-gradient(45deg, #00cdfc, #006bf6);
+    /*45deg, #00cdfc, #006bf6*/
+    padding: 0 65px;
+    overflow: hidden;
+    position: relative;
+}
+
+.proDownloadR {
+    height: 100%;
+    background: linear-gradient(-45deg, #00c0d5, #00e29e);
+    background: -webkit-linear-gradient(-45deg, #00c0d5, #00e29e);
+    background: -moz-linear-gradient(45deg, #00e29e, #00f6e0);
+    /*45deg, #00e29e, #00f6e0*/
+    padding: 0 65px;
+    overflow: hidden;
+    position: relative;
+}
+
+.proDownload .box #iconjxc, #iconsyt {
+    margin: 115px auto 10px;
+    overflow: hidden;
+}
+
+.proDownload .box p {
+    margin: 15px auto 150px;
+    font-size: 17.2px;
+    line-height: 40px;
+    position: relative;
+    top: 0px;
+    transition: top 1.3s;
+    -webkit-transiton: top 1.3s;
+    -moz-transition: top 1.3s;
+    -o-transition: top 1.3s;
+}
+
+.proDownload .box #ewm1 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    right: 120%;
+    top: 450px;
+    z-index: 999;
+    transition: right 1.7s;
+    -webkit-transiton: right 1.7s;
+    -moz-transition: right 1.7s;
+    -o-transition: right 1.7s;
+}
+
+.proDownload .box #dog {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 120%;
+    top: 400px;
+    transition: left 1.7s;
+    -webkit-transiton: left 1.7s;
+    -moz-transition: left 1.7s;
+    -o-transition: left 1.7s;
+}
+
+.proDownload .box #ewm2 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    /*right: 120%;*/
+    top: 450px;
+    z-index: 999;
+    right: 40%;
+    display: none;
+    /*transition: right 1.7s;
+    -webkit-transiton: right 1.7s;
+    -moz-transition: right 1.7s;
+    -o-transition: right 1.7s;*/
+}
+
+.proDownload .box #egg1 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 40%;
+    top: 470px;
+    display: none;
+}
+
+
+/*.proDownload .box #egg1:hover{
+  left: 54%;
+}*/
+
+.proDownload .box #egg2 {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    left: 45%;
+    top: 450px;
+    display: none;
+}
+
+.proDownload .box #egg3 {
+    position: absolute;
+    width: 140px;
+    height: 160px;
+    left: 35%;
+    top: 430px;
+    display: none;
+}
+
+
+/*鼠标移入动画*/
+
+.proDownloadL:hover p {
+    top: 400px;
+}
+
+.proDownloadL:hover #ewm1 {
+    right: 40%;
+}
+
+.proDownloadL:hover #dog {
+    left: 60%;
+}
+
+.proDownloadR:hover p {
+    top: 400px;
+}
+
+.proDownloadR:hover #ewm2 {
+    right: 40%;
+}
+
+.dlbtnL {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.dlbtnR {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+
+/*产品特色部分样式*/
+
+.profeature {
+    width: 100%;
+    min-width: 1300px;
+    height: auto;
+    overflow: auto;
+    color: #455676;
+}
+
+.profeature h3 {
+    margin: 50px auto 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profeature .featureBox {
+    width: 1050px;
+    margin: auto;
+    color: #455676;
+    text-align: center;
+    overflow: auto;
+}
+
+.profeature .featureBox .feature1, .feature2, .feature3, .feature4 {
+    width: 25%;
+    padding: 0 20px;
+    float: left;
+}
+
+.profeature .featureBox img {
+    margin: 30px auto 45px;
+}
+
+.profeature .featureBox p {
+    margin: 0 auto 45px;
+}
+
+
+/*商户实例部分样式*/
+
+.proExample {
+    height: auto;
+    width: 100%;
+    min-width: 1300px;
+    padding: 50px 0 0 0;
+    background: #f8f8f8;
+    font-family: "华文细黑";
+}
+
+.proExample .contBox {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.proExample .contBox .photo {
+    width: 60%;
+    height: 520px;
+    padding: 20px 55px 15px 80px;
+    float: left;
+    overflow: auto;
+}
+
+.proExample .photo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.proExample .detail {
+    width: 38%;
+    height: 550px;
+    margin: 2px;
+    padding: 10px 20px 0 20px;
+    color: black;
+    text-align: left;
+    ;
+    line-height: 50px;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    float: left;
+}
+
+.proExample .detail .textbox {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.proExample .detail h2 {
+    font-family: "Microsoft Yahei";
+    padding-left: 150px;
+}
+
+.proExample .detail .recommend .rcont {
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.proExample .detail .recommend #img5 {
+    display: none;
+}
+
+#wrap {
+    width: 100%;
+    padding: 5px 0 30px 0;
+    min-width: 1300px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#wrap .list {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    display: block;
+}
+
+#wrap .list li {
+    width: 15.6667%;
+    height: auto;
+    margin: 0 0.5%;
+    padding: 28px;
+    display: block;
+    float: left;
+    transition: padding .3s;
+    /*border-radius: 10%;*/
+}
+
+#wrap .list li img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.display {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    /*box-shadow: 5px 5px 10px black;*/
+    box-shadow: 9px 9px 18px rgba(156, 169, 191, 0.9)
+}
+
+#wrap #prev {
+    display: block;
+    width: 65px;
+    height: 95px;
+    background: url('../img/left.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 5%;
+    top: 26%;
+    z-index: 99;
+}
+
+#wrap #next {
+    display: block;
+    width: 65px;
+    height: 95px;
+    background: url('../img/right.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 5%;
+    top: 26%;
+    z-index: 9999;
+}
+
+#wrap #prev:hover, #wrap #next:hover {
+    cursor: pointer;
+}
+
+
+/*功能点部分样式*/
+
+.proFunction {
+    height: auto;
+    width: 100%;
+    min-width: 1300px;
+    background: linear-gradient(30deg, #00cece, #00aafa);
+    background: -webkit-linear-gradient(30deg, #00cece, #00aafa);
+    background: -moz-linear-gradient(30deg, #00cece, #00aafa);
+    padding: 0 0 120px 0;
+    margin: 0;
+    text-align: center;
+    overflow: auto;
+}
+
+.proFunction .functionBox {
+    width: 80%;
+    min-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.proFunction .functionBox .fcont {
+    width: 16.56%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    ;
+}
+
+.proFunction .functionBox img {
+    margin: 80px auto 30px;
+}
+
+.proFunction .functionBox p {
+    font-size: 16px;
+}
+
+
+/*@keyframes myscale
+{
+from {transform:scale(1);}
+to {transform:scale(1.3)}
+}
+@-webkit-keyframes myscale
+{
+from {transform:scale(1);}
+to {transform:scale(1.3)}
+}
+
+.proFunction .functionBox .fcont img:hover{
+  animation:myscale 0.6s infinite;
+ -webkit-animation:myscale 0.6s infinite;
+
+
+}
+*/
+
+
+/*企业用户例子部分样式*/
+
+.proUser {
+    height: 600px;
+    margin: 100px auto 100px;
+}
+
+.bxslider {
+    width: 100%;
+    height: auto;
+}
+
+.block1, .block2, .block3, .block4, .block5 {
+    height: 322px;
+    width: 295px;
+    margin: 0 auto;
+    border-radius: 60px;
+    position: relative;
+    padding: 50px 30px 30px;
+    position: relative;
+    color: white;
+    font-size: 17px;
+}
+
+#circle1, #circle2, #circle3, #circle4, #circle5 {
+    height: 50px;
+    width: 50px;
+    margin: 30px auto 0;
+    border-radius: 25px;
+    position: relative;
+}
+
+#content1 .block1 {
+    background: #ff8feb;
+}
+
+#content2 .block2 {
+    background: #25aaff;
+}
+
+#content3 .block3 {
+    background: #FFCC99;
+}
+
+#content4 .block4 {
+    background: #00CCCC;
+}
+
+#content5 .block5 {
+    background: #8e9eff;
+}
+
+#circle1 {
+    background: #ff8feb;
+}
+
+#circle2 {
+    background: #25aaff;
+}
+
+#circle3 {
+    background: #FFCC99;
+}
+
+#circle4 {
+    background: #00CCCC;
+}
+
+#circle5 {
+    background: #8e9eff;
+}
+
+#content1 .block1::after, .block1::before {
+    content: " ";
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    border-width: 25px;
+    border-top-color: #ff8feb;
+}
+
+#content2 .block2::after, .block2::before {
+    content: " ";
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    border-width: 25px;
+    border-top-color: #25aaff;
+}
+
+#content3 .block3::after, .block3::before {
+    content: " ";
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    border-width: 25px;
+    border-top-color: #FFCC99;
+}
+
+#content4 .block4::after, .block4::before {
+    content: " ";
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    border-width: 25px;
+    border-top-color: #00CCCC;
+}
+
+#content5 .block5::after, .block5::before {
+    content: " ";
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    border-width: 25px;
+    border-top-color: #8e9eff;
+}
+
+.circle img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.proUser h3, .proUser h4 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.proUser h4 {
+    font-size: 16px;
+}
+
+.block1 img, .block2 img, .block3 img, .block4 img, .block5 img {
+    display: block;
+    margin: 5px auto 0;
+    width: 170px;
+    height: 90px;
+}
+
+.content p {
+    display: block;
+    width: 235px;
+    height: 144px;
+}
+
+
+/*底部部分样式*/
+
+.footer {
+    height: 110px;
+    width: 100%;
+    min-width: 1300px;
+    padding: 0 50px;
+    /*margin-bottom: 15px;*/
+    background: #ffe401;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.footer #close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 95px;
+    right: 170px;
+    background: #ffe401;
+    z-index: 9999999;
+    border-radius: 15px 15px 0 0;
+}
+
+.footer #close span {
+    text-align: center;
+    height: 16px;
+    width: 16px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 8px;
+    line-height: 16px;
+    color: gray;
+}
+
+.footer .footerL {
+    width: 50%;
+    height: 100%;
+    padding: 0 50px 0 120px;
+    float: left;
+}
+
+.footer .footerL h3 {
+    /*font-size: 22px;*/
+    font-weight: bold;
+}
+
+.footer .footerR {
+    width: 50%;
+    height: 100%;
+    padding: 15px 0 15px 80px;
+    float: right;
+    position: relative;
+}
+
+.footer .footerR #footerLogo1, #footerLogo2 {
+    margin: 0 30px 0 15px;
+}
+
+.footer .footerR span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer #footerEwm1 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 245px;
+    z-index: -999;
+}
+
+.footer #footerEwm2 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 450px;
+    z-index: -999;
+}
+
+.footer .downloadbtn {
+    width: 120px;
+    height: 50px;
+    margin-left: 20px;
+    border: 2px solid white;
+    position: absolute;
+    right: 0;
+    top: 27px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    overflow: hidden;
+}
+
+.footer .downloadbtn p {
+    margin: 0;
+}
+
+.downloadbtn:hover {
+    background: #00aafa;
+    color: black;
+}
+
+
+/*二维码弹出动画css实现*/
+
+.footer .footerR #footerLogo1:hover+#footerEwm1 {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    top: -130px;
+    width: 115px;
+    height: 115px;
+    left: 225px;
+}
+
+.footer .footerR #footerLogo2:hover+#footerEwm2 {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    top: -130px;
+    width: 115px;
+    height: 115px;
+    left: 430px;
+}
+
+@media screen and (min-width:1470px) {
+    /*.carousel {
+        height: 450px;
+    }
+    .carousel .slogan {
+        width: 440px;
+        height: 410px;
+    }*/
+    .proExample .contBox .photo {
+        padding: 20px 105px 30px 100px;
+    }
+}
+
+@media screen and (min-width:1570px) {
+    .top .topBtnL .panelL,.top .topBtnR .panelR{
+      height: 345px;
+      top: -350px;
+    }
+
+    .proDownload .proDownloadL,.proDownloadR{
+      padding: 0 100px;
+    }
+    /*.carousel {
+        height: 520px;
+    }
+    .carousel .slogan {
+        top: 50px;
+        left: 9%;
+        width: 470px;
+        height: 440px;
+    }*/
+    .footer .footerR {
+        padding: 15px 0 15px 150px;
+    }
+    .footer .footerR .downloadbtn {
+        right: 40px;
+    }
+    .proExample .contBox .photo {
+        padding: 20px 105px 20px 100px;
+    }
+    #wrap .list li {
+        padding: 46px;
+    }
+    #wrap #next, #wrap #prev {
+        top: 32%;
+    }
+    #wrap #next {
+        right: 6%;
+    }
+    #wrap #prev {
+        left: 6%;
+    }
+}
+
+@media screen and (min-width:1700px) {
+    /*.carousel {
+        height: 600px;
+    }*/
+
+    .proDownload .proDownloadL,.proDownloadR{
+      padding: 0 150px;
+    }
+    .proExample .contBox .photo {
+        padding: 20px 125px 10px 150px;
+    }
+}
