@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			Old Drivers 在线考试网站
+		</title>
+		<meta name="viewport" content="width-device-width,initial-scale=1.0" />
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/style.css" charset="utf-8" />
+		<link rel="icon" href="images/panda_16px_1179072_easyicon.net.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/panda_16px_1179072_easyicon.net.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">
+              Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+					<a class="navbar-brand" href="index.html">
+            Old Drivers
+          </a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">
+                首页
+              </a>
+						</li>
+						<li class="active">
+							<a href="exam.html">
+                在线考试
+              </a>
+						</li>
+						<li>
+							<a href="message.html">
+                在线留言
+              </a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                更多
+                <span class="caret">
+                </span>
+              </a>
+							<ul class="dropdown-menu">
+								<li role="separator" class="divider">
+								</li>
+								<li class="dropdown-header">
+									关于我们
+								</li>
+								<li>
+									<a href="#">
+                    我们的团队
+                  </a>
+								</li>
+								<li>
+									<a href="#">
+                    提供赞助
+                  </a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="">
+								<span class="glyphicon glyphicon-search" aria-hidden="true">
+                </span>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true">
+              </a>
+            </li>
+            <li class="active">
+              <a href="">
+                登&nbsp;录
+                <span class="glyphicon glyphicon-user" aria-hidden="true">
+                  <span class="sr-only">
+                    (current)
+                  </span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid main">
+			<div class="row">
+				<div class="col-md-3 btn btn-lg btn-success courseBtn">
+					<h4>软件工程</h4>
+				</div>
+				<div class="col-md-3 btn btn-lg btn-warning courseBtn">
+					<h4>C++</h4>
+				</div>
+				<div class="col-md-3 btn btn-lg btn-danger courseBtn">
+					<h4>JAVA</h4>
+				</div>
+				<div class="col-md-3 btn btn-lg btn-primary courseBtn">
+					<h4>操作系统</h4>
+				</div>
+			</div>
+
+			<div class="row" id="listContainer" style="display: none;">
+				<div class="fixnavbar">
+					<div type="button" class="btn btn-lg btnleft">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</div>
+					<h3>答题情况</h3>
+					<table class='table table-bordered table-condensed quetionTable'>
+						<tr>
+							<td id="td1">1</td>
+							<td id="td2">2</td>
+							<td id="td3">3</td>
+							<td id="td4">4</td>
+							<td id="td5">5</td>
+						</tr>
+						<tr>
+							<td id="td5">6</td>
+							<td id="td6">7</td>
+							<td id="td8">8</td>
+							<td id="td9">9</td>
+							<td id="td10">10</td>
+						</tr>
+						<tr>
+							<td id="td11">11</td>
+							<td id="td12">12</td>
+							<td id="td13">13</td>
+							<td id="td14">14</td>
+							<td id="td15">15</td>
+						</tr>
+						<tr>
+							<td id="td16">16</td>
+							<td id="td17">17</td>
+							<td id="td18">18</td>
+							<td id="td19">19</td>
+							<td id="td20">20</td>
+						</tr>
+						<tr>
+							<td id="td21">21</td>
+							<td id="td22">22</td>
+							<td id="td23">23</td>
+							<td id="td24">24</td>
+							<td id="td25">25</td>
+						</tr>
+						<tr>
+							<td id="td26">26</td>
+							<td id="td27">27</td>
+							<td id="td28">28</td>
+							<td id="td29">29</td>
+							<td id="td30">30</td>
+						</tr>
+						<tr>
+							<td id="td31">31</td>
+							<td id="td32">32</td>
+							<td id="td33">33</td>
+							<td id="td34">34</td>
+							<td id="td35">35</td>
+						</tr>
+					</table>
+					<h4 id="timer">所用时间：50min</h4>
+				</div>
+
+				<form class="form-group col-l2">
+					<div class="jumbotron">
+					<h3><b class="questionNunber">1.&nbsp;</b>驾驶人有下列哪种违法行为一次记12分？</h3>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="A" checked>
+                 <b>A. </b>Option one is this and that&mdash;be sure to include why it's great
+            </label>
+					</div>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  <b>B. </b>Option two can be something else and selecting it will deselect option one
+            </label>
+					</div>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked>
+                  <b>C. </b>Option one is this and that&mdash;be sure to include why it's great
+            </label>
+					</div>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios4" value="option2">
+                  <b>D. </b>Option two can be something else and selecting it will deselect option one
+            </label>
+					</div>
+					</div>
+
+				<div class="jumbotron">
+
+					<h3><b class="questionNunber">2.&nbsp;</b>谁是你的爸爸</h3>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="A" checked>
+                 <b>A. </b>Option 罗炜
+            </label>
+					</div>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  <b>B. </b>Option luowei
+            </label>
+					</div>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked>
+                  <b>C. </b>Option Mr.luo
+            </label>
+					</div>
+					<div class="radio">
+						<label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios4" value="option2">
+                  <b>D. </b>Option 东三的野狗
+            </label>
+					</div>
+					</div>
+				</form>
+
+				<div class="btn btn-lg btn-primary">
+					交卷
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			window.onload = function() {
+				var courseBtns = document.getElementsByClassName('courseBtn');
+				var mylist = document.getElementById('listContainer');
+				for (var i = 0; i < courseBtns.length; i++) {
+					courseBtns[i].onclick = function() {
+						this.parentElement.style.display = "none";
+						mylist.style.display = "block"
+					}
+				}			
+			}
+		</script>
+
+		<script src="http://code.jquery.com/jquery.js ">
+		</script>
+		<script src="./js/bootstrap.min.js ">
+		</script>
+	</body>
+
+</html>
